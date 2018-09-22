@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.meet.radiobutton.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Demo 2"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+   <RadioButton
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Male"
+       android:textSize="30dp"
+       android:id="@+id/radmale"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fe Male"
+        android:textSize="30dp"
+        android:id="@+id/radfemale"/>
+    </RadioGroup>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pizza"
+        android:id="@+id/chpizza"
+        android:textSize="30dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panipuri"
+        android:id="@+id/chpanipuri"
+        android:textSize="30dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Samosa"
+        android:id="@+id/chsamosa"
+        android:textSize="30dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show"
+        android:id="@+id/btn"
+        android:textSize="30dp"/>
+</LinearLayout>
